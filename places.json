@@ -1,0 +1,16 @@
+{
+    "manali": {
+        "best_time": "October to February",
+        "food": "Siddu, Trout fish",
+        "activities": "Skiing, Trekking, Paragliding",
+        "rating": "4.5/5",
+        "review": "A beautiful place with scenic views and great adventure sports."
+    },
+    "jaipur": {
+        "best_time": "November to February",
+        "food": "Dal Baati Churma, Ghewar",
+        "activities": "Sightseeing, Shopping, Fort visits",
+        "rating": "4/5",
+        "review": "Rich in history and culture, with magnificent forts and palaces."
+    }
+}

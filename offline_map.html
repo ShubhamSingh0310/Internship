@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3e0df6b144a1ddce3f65261883e01ad5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3e0df6b144a1ddce3f65261883e01ad5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3e0df6b144a1ddce3f65261883e01ad5 = L.map(
+                "map_3e0df6b144a1ddce3f65261883e01ad5",
+                {
+                    center: [22.9734, 78.6569],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7e4f8efa58d49e02cc69980d7fed72f9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7e4f8efa58d49e02cc69980d7fed72f9.addTo(map_3e0df6b144a1ddce3f65261883e01ad5);
+        
+    
+            var marker_cluster_2ca00e33baa967eef2048120de82d663 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_c99f395fe33b0aad90ff05aacfce37a9 = L.marker(
+                [27.1751, 78.0421],
+                {
+}
+            ).addTo(marker_cluster_2ca00e33baa967eef2048120de82d663);
+        
+    
+            var icon_6e0b410ddad3b8f6b02c50357af38d1f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0c3b2bdb6917a98c5083ad68a676c1c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76d4499e15b1a372cba24cb419473b58 = $(`<div id="html_76d4499e15b1a372cba24cb419473b58" style="width: 100.0%; height: 100.0%;">Taj Mahal</div>`)[0];
+                popup_0c3b2bdb6917a98c5083ad68a676c1c9.setContent(html_76d4499e15b1a372cba24cb419473b58);
+            
+        
+
+        marker_c99f395fe33b0aad90ff05aacfce37a9.bindPopup(popup_0c3b2bdb6917a98c5083ad68a676c1c9)
+        ;
+
+        
+    
+    
+                marker_c99f395fe33b0aad90ff05aacfce37a9.setIcon(icon_6e0b410ddad3b8f6b02c50357af38d1f);
+            
+    
+            var marker_272e3cdcf6c7f16590f39acbd613cfcc = L.marker(
+                [18.9218, 72.8347],
+                {
+}
+            ).addTo(marker_cluster_2ca00e33baa967eef2048120de82d663);
+        
+    
+            var icon_782d3fb9274f1a412f5db495adc5a965 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0873156681052f1684be1d3c27b269e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66d7fd3d668fda50591078f99d5cb93c = $(`<div id="html_66d7fd3d668fda50591078f99d5cb93c" style="width: 100.0%; height: 100.0%;">Gateway of India</div>`)[0];
+                popup_0873156681052f1684be1d3c27b269e6.setContent(html_66d7fd3d668fda50591078f99d5cb93c);
+            
+        
+
+        marker_272e3cdcf6c7f16590f39acbd613cfcc.bindPopup(popup_0873156681052f1684be1d3c27b269e6)
+        ;
+
+        
+    
+    
+                marker_272e3cdcf6c7f16590f39acbd613cfcc.setIcon(icon_782d3fb9274f1a412f5db495adc5a965);
+            
+    
+            var marker_7b05b258bbeb273aa3fc2d1b42aed009 = L.marker(
+                [28.5244, 77.1855],
+                {
+}
+            ).addTo(marker_cluster_2ca00e33baa967eef2048120de82d663);
+        
+    
+            var icon_9fa0e9b608f3668c51ad21aacfa63b90 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5e135b1995d88b7b679cc90b1bc80c1c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f35256806f10267d1eb774a03f95a21 = $(`<div id="html_3f35256806f10267d1eb774a03f95a21" style="width: 100.0%; height: 100.0%;">Qutub Minar</div>`)[0];
+                popup_5e135b1995d88b7b679cc90b1bc80c1c.setContent(html_3f35256806f10267d1eb774a03f95a21);
+            
+        
+
+        marker_7b05b258bbeb273aa3fc2d1b42aed009.bindPopup(popup_5e135b1995d88b7b679cc90b1bc80c1c)
+        ;
+
+        
+    
+    
+                marker_7b05b258bbeb273aa3fc2d1b42aed009.setIcon(icon_9fa0e9b608f3668c51ad21aacfa63b90);
+            
+    
+            var marker_452137906c7c2276ad8411b21ec0b5a0 = L.marker(
+                [26.5775, 93.1711],
+                {
+}
+            ).addTo(marker_cluster_2ca00e33baa967eef2048120de82d663);
+        
+    
+            var icon_78502a7d543412fac713c83c41f518fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_736b2a935a09699f220f11818fccb673 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38362e4b4099d70bc343effef95d97c4 = $(`<div id="html_38362e4b4099d70bc343effef95d97c4" style="width: 100.0%; height: 100.0%;">Kaziranga National Park</div>`)[0];
+                popup_736b2a935a09699f220f11818fccb673.setContent(html_38362e4b4099d70bc343effef95d97c4);
+            
+        
+
+        marker_452137906c7c2276ad8411b21ec0b5a0.bindPopup(popup_736b2a935a09699f220f11818fccb673)
+        ;
+
+        
+    
+    
+                marker_452137906c7c2276ad8411b21ec0b5a0.setIcon(icon_78502a7d543412fac713c83c41f518fb);
+            
+    
+            var marker_6db9f01bf0a9d8c789559d6881f61ce6 = L.marker(
+                [25.2843, 91.7308],
+                {
+}
+            ).addTo(marker_cluster_2ca00e33baa967eef2048120de82d663);
+        
+    
+            var icon_84bd817f7cee4eab54db990bb90c1e78 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_77c5a8ee7e0639d32a1e694909ab818a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c02f450a5880068a9ea7976d026f15b = $(`<div id="html_2c02f450a5880068a9ea7976d026f15b" style="width: 100.0%; height: 100.0%;">Cherrapunji</div>`)[0];
+                popup_77c5a8ee7e0639d32a1e694909ab818a.setContent(html_2c02f450a5880068a9ea7976d026f15b);
+            
+        
+
+        marker_6db9f01bf0a9d8c789559d6881f61ce6.bindPopup(popup_77c5a8ee7e0639d32a1e694909ab818a)
+        ;
+
+        
+    
+    
+                marker_6db9f01bf0a9d8c789559d6881f61ce6.setIcon(icon_84bd817f7cee4eab54db990bb90c1e78);
+            
+    
+            marker_cluster_2ca00e33baa967eef2048120de82d663.addTo(map_3e0df6b144a1ddce3f65261883e01ad5);
+        
+</script>
+</html>

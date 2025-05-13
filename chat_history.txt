@@ -1,0 +1,7 @@
+You: Top tourist places
+Bot: Information not available for this place.
+You: Weather in Delhi
+Bot: Information not available for this place.
+You: Weather in Delhi
+You: Best time to visit Goa
+Bot: Delhi features a monsoon influenced humid subtropical climate (Köppen Cwa) bordering a hot semi-arid climate (Köppen BSh), with high variation between summer and winter temperatures and precipitation. Delhi's version of a humid subtropical climate is markedly different from many other humid subtropical cities such as São Paulo, Houston, and Brisbane in that the city features hot summers with dust storms (something more commonly seen in a desert climate) and mild winters with fog (something seen in a Mediterranean climate) due to its semi-arid climate.
